@@ -1,0 +1,55 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1,.my-desc{
+  position: absolute;
+  margin-top: 30vh;
+  margin-left: 47vw;
+  font-family: 'Dancing Script', cursive
+}
+.my-desc{
+  position: absolute;
+  top: 6vh;
+  left: -5vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+  position: relative;
+  background-color: #e4f9f5;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 20vw;
+  top: 10vh;
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 20vw;
+  top: 35vh;
+}
+
+.mountain{
+  position:absolute;
+  bottom: 0;
+  right:20%;
+}
+
+.middle-container{
+}
+.bottom-container{
+}
+
+.pro{
+  text-decoration:underline;
+}
+
+
+
