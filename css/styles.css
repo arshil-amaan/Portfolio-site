@@ -4,15 +4,31 @@ body{
   text-align: center;
 }
 h1,.my-desc{
+  color: #66bfbf;
   position: absolute;
   margin-top: 30vh;
-  margin-left: 47vw;
-  font-family: 'Dancing Script', cursive
+  margin-left: 44vw;
 }
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+}
+
+hr{
+  width: 10%;
+  border: solid 2px;
+  background-color: #fff;
+  border-style: dotted none none;
+  border-width: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .my-desc{
   position: absolute;
-  top: 6vh;
-  left: -5vw;
+  top: 12vh;
+  left: 1vw;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,7 +36,7 @@ h1,.my-desc{
   position: relative;
   background-color: #e4f9f5;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .top-cloud{
@@ -36,11 +52,39 @@ h1,.my-desc{
   top: 35vh;
 }
 
+.my-pic{
+  margin-top: 4%;
+}
+
+.my-desc-full{
+  width:50%;
+  margin:auto;
+  line-height: 2;
+}
+
+.skill-row{
+  width:50%;
+  margin: 70px auto;
+}
+
 .mountain{
   position:absolute;
   bottom: 0;
   right:20%;
 }
+
+.skill1-img{
+  width: 25%;
+  float: left;
+  margin-top: -10%;
+}
+
+.skill2-img{
+  width: 25%;
+  float: right;
+  margin-top: -5%;
+}
+
 
 .middle-container{
 }
@@ -50,6 +94,3 @@ h1,.my-desc{
 .pro{
   text-decoration:underline;
 }
-
-
-
