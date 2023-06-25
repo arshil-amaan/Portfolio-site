@@ -75,22 +75,20 @@ hr{
 }
 
 .skill1-img{
-  width: 25%;
+  width: 15%;
   float: left;
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .skill2-img{
-  width: 25%;
+  width: 15%;
   float: right;
-  margin-top: -5%;
 }
 
 
 .middle-container{
 }
 .bottom-container{
-  /* height:100px; */
   background-color: #66bfbf;
   padding: 20px;
   margin-top: 20px;
